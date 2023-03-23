@@ -1,0 +1,69 @@
+body{
+    background-color: black;
+    max-width: auto;
+    text-align: start;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+}
+img{
+    width: 200px;
+    height: 170px;
+}
+.number{
+    transition: 0,2s;
+}
+.number:hover{
+    color: aqua;
+}
+.menu{
+    height: 31px;
+    width: 40px;
+    margin-top: 80px;
+    margin-left: 52px;
+}
+
+main{
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    display: inline-block;
+    padding-top: 100px;
+    font-size:larger;
+    padding-left: 16px;
+}
+h2{
+    color: aqua;
+    font-size: x-large;
+}
+h1{
+    color: aqua;
+    font-size: xxx-large;
+    width: 500px;
+}
+div{
+    margin: 30px;
+}
+button{
+    background-color:aqua;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    position: relative;
+    left: 1350px;
+    top: -69px;
+    font-size:large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    transition: 0,2s;
+}
+
+button:hover{
+    background-color: white;
+}
+
